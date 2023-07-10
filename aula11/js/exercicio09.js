@@ -1,7 +1,7 @@
 function buscar() {
     var pais = window.document.getElementById('pais')
     var res = window.document.getElementById('res')
-    var orig = Text
+    var orig = pais.value
 
     res.innerHTML = `<p>Sejá Bem Vindo!</p>`
     if (orig !== 'Brasil') {
